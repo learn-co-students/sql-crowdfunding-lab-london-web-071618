@@ -1,23 +1,8 @@
-INSERT INTO users (name, age) VALUES ("Adham", 25);
-INSERT INTO users (name, age) VALUES ("Baxter", 30);
-INSERT INTO users (name, age) VALUES ("Charlene", 18);
-INSERT INTO users (name, age) VALUES ("Diane", 27);
-INSERT INTO users (name, age) VALUES ("Euguene", 32);
-INSERT INTO users (name, age) VALUES ("Faris", 76);
-INSERT INTO users (name, age) VALUES ("Geraldine", 23);
-INSERT INTO users (name, age) VALUES ("Henrietta", 21);
-INSERT INTO users (name, age) VALUES ("Irene", 35);
-INSERT INTO users (name, age) VALUES ("Jason", 67);
-INSERT INTO users (name, age) VALUES ("Keane", 53);
-INSERT INTO users (name, age) VALUES ("Lennon", 27);
-INSERT INTO users (name, age) VALUES ("Martin", 38);
-INSERT INTO users (name, age) VALUES ("Natasha", 42);
-INSERT INTO users (name, age) VALUES ("Oscar", 52);
-INSERT INTO users (name, age) VALUES ("Peter", 64);
-INSERT INTO users (name, age) VALUES ("Qubert", 39);
-INSERT INTO users (name, age) VALUES ("Roxanne", 18);
-INSERT INTO users (name, age) VALUES ("Sarah", 35);
-INSERT INTO users (name, age) VALUES ("Tina", 54);
+
+INSERT INTO users (id, name, age) VALUES (1, 'Finnebar', 17), (2, 'Bear', 6), (3, 'Iguana', 4), (4, 'Alex', 33),
+(5, 'Amanda', 24), (6, 'Sophie', 24), (7, 'Rosey', 9), (8, 'Victoria', 23), (9, 'Franz', 100), (10, 'Hermione', 30),
+(11, 'Voldemort', 90), (12, 'Marisa', 24), (13, 'Swizzle', 4), (14, 'Sirius', 36), (15, 'Albus', 113), (16, 'Squid', 5),
+(17, 'Whale', 6), (18, 'Pacha', 5), (19, 'Ena', 24), (20, 'Katie', 24);
 
 INSERT INTO projects (id, title, category, funding_goal, start_date, end_date) VALUES
 (1, 'Help me buy a guitar', 'music', 500.00, '2013-06-30', '2013-07-30'),
